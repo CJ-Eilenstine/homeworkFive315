@@ -20,4 +20,18 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
 
+#app {
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  height: 108px;
+  border-bottom: solid 1px #000;
+  background-color: burlywood;
+}
+
 /*# sourceMappingURL=styles.css.map */
