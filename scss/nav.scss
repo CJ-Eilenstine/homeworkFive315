@@ -1,5 +1,69 @@
 nav {
     height: $desk-height;
     border-bottom: solid 1px $site-black;
-    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 33px;
+    width: 100%;
+
+    .logo {
+        width: 15%;
+        align-self: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+
+        img {
+            height: 73px;
+        }
+
+        p {
+            color: $site-black;
+            font-family: $reg-font;
+        }
+    }
+
+    .search-bar {
+        width: 30%;
+        background-color: $search-bar;
+        height: 40%;
+        align-self: flex-end;
+        display: flex;
+        align-items: flex-start;
+
+        img {
+            height: 100%;
+            opacity: 45%;
+            margin-right: 5px;
+        }
+
+        p {
+            font-family: $reg-font;
+            color: rgba($color: #000000, $alpha: .45);
+            font-size: 16px;
+        }
+    }
+
+    .links {
+        width: 38%;
+        height: 20px;
+        align-self: flex-end;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            height: 150%;
+            margin-left: -5%;
+        }
+
+        a {
+            color: $site-black;
+            font-size: 16px;
+            font-family: $reg-font;
+            text-decoration: none;
+            margin-right: 4px;
+        }
+    }
 }
