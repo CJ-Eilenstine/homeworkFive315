@@ -2,4 +2,32 @@ footer {
     height: 92px;
     background-color: $site-blue;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 5%;
+
+    img {
+        height: 44px;
+        margin-right: 38px;
+    }
+
+    .copyright {
+        p {
+            color: $site-white;
+            font-size: 16px;
+            font-family: $reg-font;
+        }
+    }
+
+    .links {
+
+        a {
+            color: $site-white;
+            font-size: 16px;
+            font-family: $reg-font;
+            text-decoration: none;
+            margin-right: 38px;
+        }
+    }
 }

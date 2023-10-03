@@ -35,7 +35,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 33px;
+  padding: 30px 1.7%;
   width: 100%;
 }
 nav .logo {
@@ -94,6 +94,26 @@ footer {
   height: 92px;
   background-color: #587C83;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 5%;
+}
+footer img {
+  height: 44px;
+  margin-right: 38px;
+}
+footer .copyright p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: Segoe UI Regular;
+}
+footer .links a {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: Segoe UI Regular;
+  text-decoration: none;
+  margin-right: 38px;
 }
 
 /*# sourceMappingURL=styles.css.map */
