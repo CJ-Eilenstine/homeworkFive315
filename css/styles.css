@@ -93,13 +93,13 @@ nav .links a {
 footer {
   height: 92px;
   background-color: #587C83;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 35px 5%;
 }
-footer img {
+footer .social img {
   height: 44px;
   margin-right: 38px;
 }
@@ -120,7 +120,7 @@ footer .links a {
 }
 
 @media screen and (max-width 904px) {
-  img {
+  footer .social img {
     height: 23px;
   }
 }
