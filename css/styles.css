@@ -21,12 +21,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #app {
-  max-width: 1920px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 100vh;
 }
 
 nav {
@@ -93,23 +91,33 @@ nav .links a {
 footer {
   height: 92px;
   background-color: #587C83;
-  width: 100vw;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 35px 5%;
 }
-footer .social img {
-  height: 44px;
-  margin-right: 38px;
+footer .social {
+  height: 100%;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-footer .copyright p {
+footer .social img {
+  height: 100%;
+}
+footer .copyright span {
   color: #FFFFFF;
   font-size: 16px;
   font-family: Segoe UI Regular;
 }
 footer .links {
   margin-left: 10px;
+  min-width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 footer .links a {
   color: #FFFFFF;
@@ -119,9 +127,12 @@ footer .links a {
   margin-right: 38px;
 }
 
-@media screen and (max-width 904px) {
-  footer .social img {
-    height: 23px;
+@media screen and (max-width: 768px) {
+  footer .copyright span {
+    font-size: 11px;
+  }
+  footer .links a {
+    font-size: 11px;
   }
 }
 
