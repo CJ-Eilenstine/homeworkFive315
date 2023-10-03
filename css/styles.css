@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6, p {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  min-height: 100vh;
 }
 
 nav {
@@ -87,6 +88,12 @@ nav .links a {
   font-family: Segoe UI Regular;
   text-decoration: none;
   margin-right: 4px;
+}
+
+footer {
+  height: 92px;
+  background-color: #587C83;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
