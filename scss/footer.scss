@@ -21,6 +21,7 @@ footer {
     }
 
     .links {
+        margin-left: 10px;
 
         a {
             color: $site-white;
@@ -29,5 +30,11 @@ footer {
             text-decoration: none;
             margin-right: 38px;
         }
+    }
+}
+
+@media screen and (max-width 904px) {
+    img {
+        height: 23px;
     }
 }
