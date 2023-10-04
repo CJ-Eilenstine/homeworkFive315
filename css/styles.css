@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .site-wrapper {
-  width: 100vw;
+  width: 100%;
 }
 
 nav {
@@ -131,6 +131,93 @@ footer .links a {
   footer .links a {
     font-size: 11px;
   }
+}
+.hero {
+  height: 300px;
+  width: 80%;
+  background-image: url(../assets/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 80px;
+}
+.hero .opacity {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(88, 124, 131, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.hero .opacity .text-holder {
+  margin-right: 10%;
+}
+.hero .opacity .text-holder h1 {
+  font-size: 32px;
+  font-family: Segoe UI Bold;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+.hero .opacity .text-holder p {
+  font-family: Segoe UI Regular;
+  color: #FFFFFF;
+}
+
+.home-content {
+  min-height: 750px;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-content .book-info {
+  height: 750px;
+  width: 30%;
+}
+.home-content .book-info .book {
+  height: 500px;
+  width: 85%;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.home-content .book-info .book-desc {
+  width: 100%;
+  text-align: center;
+  font-family: Segoe UI Regular;
+  font-size: 14px;
+}
+.home-content .book-info .book-price {
+  font-family: Segoe UI Bold;
+  text-align: center;
+}
+.home-content .book-info .cart {
+  margin-left: 20%;
+  height: 68px;
+  width: 222px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mockingbird {
+  background-image: url(../assets/to-kill-a-mockingbird.jpg);
+}
+
+.michelle-obama {
+  background-image: url(../assets/becoming.jpg);
+}
+
+.firestarter {
+  background-image: url(../assets/firestarter.jpg);
 }
 
 /*# sourceMappingURL=styles.css.map */
