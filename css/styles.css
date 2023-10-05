@@ -220,4 +220,148 @@ footer .links a {
   background-image: url(../assets/firestarter.jpg);
 }
 
+.about-content-wrapper {
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 213px;
+  margin-bottom: 213px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.about-content-wrapper .about-image {
+  height: 100%;
+  width: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-content-wrapper .about-text-holder {
+  width: 70%;
+  min-height: 100px;
+}
+.about-content-wrapper .about-text-holder h1 {
+  text-align: center;
+  font-family: Segoe UI Bold;
+  margin-bottom: 40px;
+}
+.about-content-wrapper .about-text-holder h3 {
+  text-align: center;
+  font-family: Segoe UI Bold;
+  margin-bottom: 40px;
+}
+.about-content-wrapper .about-text-holder p {
+  font-family: Segoe UI Regular;
+}
+
+.about-one {
+  background-image: url(../assets/about-photo.jpg);
+}
+
+.about-two {
+  background-image: url(../assets/about-photo-two.jpg);
+}
+
+.book-group {
+  width: 97%;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 180px;
+  margin-bottom: 310px;
+}
+.book-group .group-title {
+  margin-bottom: 65px;
+}
+.book-group .group-title h2 {
+  font-family: Segoe UI Bold;
+}
+.book-group .info-wrapper {
+  width: 100%;
+  min-height: 275px;
+  display: flex;
+  justify-content: space-between;
+}
+.book-group .info-wrapper .book-wrapper {
+  height: 275px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.book-group .info-wrapper .book-wrapper .book-image {
+  height: 100%;
+  width: 190px;
+  background-color: purple;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.book-group .info-wrapper .book-wrapper .book-info-wrapper {
+  height: 100%;
+  width: 180px;
+}
+.book-group .info-wrapper .book-wrapper .book-info-wrapper p {
+  font-family: Segoe UI Regular;
+  margin-bottom: 20px;
+}
+.book-group .info-wrapper .book-wrapper .book-info-wrapper h3 {
+  font-family: Segoe UI Bold;
+  margin-bottom: 15px;
+}
+.book-group .info-wrapper .book-wrapper .book-info-wrapper .cart {
+  height: 68px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.twilight {
+  background-image: url(../assets/twilight-box-set.jpg);
+}
+
+.potter {
+  background-image: url(../assets/hp-box-set.jpg);
+}
+
+.got {
+  background-image: url(../assets/got-box-set.jpg);
+}
+
+.viola-davis {
+  background-image: url(../assets/finding\ me.jpg);
+}
+
+.mlk-auto {
+  background-image: url(../assets/mlk-biography.jpg);
+}
+
+.elanor {
+  background-image: url(../assets/elenor-roosevelt-biography.jpg);
+}
+
+.misery {
+  background-image: url(../assets/misery.jpg);
+}
+
+.frankenstein {
+  background-image: url(../assets/frankenstein.jpg);
+}
+
+.phantoms {
+  background-image: url(../assets/phantoms.jpg);
+}
+
+.winnie {
+  background-image: url(../assets/winnie\ the\ pooh.jpg);
+}
+
+.cat {
+  background-image: url(../assets/cat\ and\ the\ hat.jpg);
+}
+
+.space {
+  background-image: url(../assets/fun\ facts\ about\ space.jpg);
+}
+
 /*# sourceMappingURL=styles.css.map */

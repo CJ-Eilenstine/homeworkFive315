@@ -1,0 +1,43 @@
+
+.about-content-wrapper{
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 213px;
+  margin-bottom: 213px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  .about-image{
+    height: 100%;
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-text-holder{
+    width: 70%;
+    min-height: 100px;
+    h1{
+      text-align: center;
+      font-family: $bold-font;
+      margin-bottom: 40px;
+    }
+    h3{
+      text-align: center;
+      font-family: $bold-font;
+      margin-bottom: 40px;
+    }
+    p{
+      font-family: $reg-font;
+    }
+  }
+}
+
+.about-one{
+  background-image: url(../assets/about-photo.jpg);
+}
+
+.about-two{
+  background-image: url(../assets/about-photo-two.jpg);
+}

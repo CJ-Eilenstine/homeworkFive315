@@ -1,0 +1,103 @@
+.book-group{
+  width: 97%;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 180px;
+  margin-bottom: 310px;
+  .group-title{
+    margin-bottom: 65px;
+    h2{
+      font-family: $bold-font;
+    }
+  }
+  .info-wrapper{
+    width: 100%;
+    min-height: 275px;
+    display: flex;
+    justify-content: space-between;
+    .book-wrapper{
+      height: 275px;
+      width: 400px;
+      display: flex;
+      justify-content: space-between;
+      .book-image{
+        height: 100%;
+        width: 190px;
+        background-color: purple;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .book-info-wrapper{
+        height: 100%;
+        width: 180px;
+        
+        p{
+          font-family: $reg-font;
+          margin-bottom: 20px;
+        }
+
+        h3{
+          font-family: $bold-font;
+          margin-bottom: 15px;
+        }
+
+        .cart{
+          height: 68px;
+          width: 150px;
+          border: 1px solid black;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.twilight{
+  background-image: url(../assets/twilight-box-set.jpg);
+}
+
+.potter{
+  background-image: url(../assets/hp-box-set.jpg);
+}
+
+.got{
+  background-image: url(../assets/got-box-set.jpg);
+}
+
+.viola-davis{
+  background-image: url(../assets/finding\ me.jpg);
+}
+
+.mlk-auto{
+  background-image: url(../assets/mlk-biography.jpg);
+}
+
+.elanor{
+  background-image: url(../assets/elenor-roosevelt-biography.jpg);
+}
+
+.misery{
+  background-image: url(../assets/misery.jpg);
+}
+
+.frankenstein{
+  background-image: url(../assets/frankenstein.jpg);
+}
+
+.phantoms{
+  background-image: url(../assets/phantoms.jpg);
+}
+
+.winnie{
+  background-image: url(../assets/winnie\ the\ pooh.jpg);
+}
+
+.cat{
+  background-image: url(../assets/cat\ and\ the\ hat.jpg);
+}
+
+.space{
+  background-image: url(../assets/fun\ facts\ about\ space.jpg);
+}
