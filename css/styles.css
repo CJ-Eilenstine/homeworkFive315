@@ -22,13 +22,19 @@ h1, h2, h3, h4, h5, h6, p {
 
 .site-wrapper {
   min-width: 100vw;
+  position: relative;
 }
 
 ::root {
   font-size: 16px;
-  min-width: 100%;
+  width: 100%;
 }
 
+@media screen and (max-width: 772px) {
+  ::root {
+    font-size: 11px;
+  }
+}
 nav {
   height: 6.75em;
   border-bottom: solid 1px #000;
@@ -37,6 +43,7 @@ nav {
   justify-content: space-between;
   padding: 30px 1.7%;
   min-width: 100%;
+  position: absolute;
 }
 nav .logo {
   width: 15%;
@@ -91,13 +98,14 @@ nav .links a {
 }
 
 footer {
+  position: absolute;
   height: 5.75em;
   background-color: #587C83;
   min-width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2.1875em 4em;
+  padding: 2.1875em 6em;
 }
 footer .social {
   height: 5.75em;

@@ -16,15 +16,17 @@ h1, h2, h3, h4, h5, h6, p {
     // justify-content: space-between;
     // align-items: center;
     min-width: 100vw;
+    position: relative;
 }
-
-#app {
-    // padding-left: 80px;
-    // padding-right: 80px;
-}
-
 
 ::root {
+    // position: sticky;
     font-size: 16px;
-    min-width: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 772px) {
+    ::root {
+        font-size: 11px;
+    }
 }
