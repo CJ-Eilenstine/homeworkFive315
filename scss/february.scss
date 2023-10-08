@@ -1,4 +1,64 @@
-.site-wrapper{
+.february-wrapper{
   width: 80%;
-  min-height: 100%;
+  margin: 0 auto;
+  margin-top: 140px;
+  .february-hero{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/february-favorites-hero.jpg);
+    .february-opacity{
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(88, 124, 131, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .february-hero-text{
+          text-align: center;
+          font-family: $bold-font;
+          color: $site-white;
+        }
+    }
+  }
+  .february-content-wrapper{
+    width: 100%;
+    height: 300px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .book-left{
+      height: 100%;
+      width: 20%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: purple;
+    }
+    .text-right{
+      height: 100%;
+      width: 75%;
+      h1{
+        font-family: $bold-font;
+      }
+      p{
+        font-family: $reg-font;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.michelle{
+  background-image: url(../assets/becoming.jpg);
+}
+
+.davis{
+  background-image: url(../assets/finding\ me.jpg);
 }

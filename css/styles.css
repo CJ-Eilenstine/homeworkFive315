@@ -511,9 +511,171 @@ footer .links a {
   background-image: url(../assets/ereading-blog.jpg);
 }
 
-.site-wrapper {
+.february-wrapper {
   width: 80%;
-  min-height: 100%;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+.february-wrapper .february-hero {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/february-favorites-hero.jpg);
+}
+.february-wrapper .february-hero .february-opacity {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(88, 124, 131, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.february-wrapper .february-hero .february-opacity .february-hero-text {
+  text-align: center;
+  font-family: Segoe UI Bold;
+  color: #FFFFFF;
+}
+.february-wrapper .february-content-wrapper {
+  width: 100%;
+  height: 300px;
+  margin-top: 140px;
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.february-wrapper .february-content-wrapper .book-left {
+  height: 100%;
+  width: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: purple;
+}
+.february-wrapper .february-content-wrapper .text-right {
+  height: 100%;
+  width: 75%;
+}
+.february-wrapper .february-content-wrapper .text-right h1 {
+  font-family: Segoe UI Bold;
+}
+.february-wrapper .february-content-wrapper .text-right p {
+  font-family: Segoe UI Regular;
+  font-size: 14px;
+}
+
+.michelle {
+  background-image: url(../assets/becoming.jpg);
+}
+
+.davis {
+  background-image: url(../assets/finding\ me.jpg);
+}
+
+.bookclub-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+.bookclub-wrapper .bookclub-hero {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/book-club-hero.jpg);
+}
+.bookclub-wrapper .bookclub-hero .bookclub-opacity {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(88, 124, 131, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bookclub-wrapper .bookclub-hero .bookclub-opacity .bookclub-hero-text {
+  text-align: center;
+  font-family: Segoe UI Bold;
+  color: #FFFFFF;
+}
+.bookclub-wrapper .bookclub-content {
+  height: 650px;
+  width: 100%;
+  margin-top: 105px;
+  margin-bottom: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+.bookclub-wrapper .bookclub-content .image-left {
+  width: 40%;
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/open-book-blog.jpg);
+}
+.bookclub-wrapper .bookclub-content .text-right {
+  width: 55%;
+  height: 100%;
+  font-family: Segoe UI Regular;
+  font-size: 14px;
+}
+
+.e-read-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+.e-read-wrapper .e-read-hero {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/ereading-blog.jpg);
+}
+.e-read-wrapper .e-read-hero .e-read-opacity {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(88, 124, 131, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.e-read-wrapper .e-read-hero .e-read-opacity .e-read-hero-text {
+  text-align: center;
+  font-family: Segoe UI Bold;
+  color: #FFFFFF;
+}
+.e-read-wrapper .e-read-content {
+  height: 650px;
+  width: 100%;
+  margin-top: 105px;
+  margin-bottom: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+.e-read-wrapper .e-read-content .e-read-image-left {
+  width: 40%;
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/eread-hero.jpg);
+}
+.e-read-wrapper .e-read-content .text-right {
+  width: 55%;
+  height: 100%;
+  font-family: Segoe UI Regular;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=styles.css.map */
