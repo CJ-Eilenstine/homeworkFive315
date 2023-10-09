@@ -47,7 +47,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 30px 1.7%;
-  min-width: 100%;
+  max-width: 100%;
 }
 nav .logo {
   width: 15%;
@@ -57,7 +57,7 @@ nav .logo {
   align-items: flex-end;
 }
 nav .logo img {
-  height: 73px;
+  height: 4.5em;
 }
 nav .logo p {
   color: #000;
@@ -66,20 +66,21 @@ nav .logo p {
 nav .search-bar {
   width: 30%;
   background-color: rgba(88, 124, 131, 0.35);
-  height: 40%;
+  height: 2rem;
   align-self: flex-end;
   display: flex;
   align-items: flex-start;
 }
 nav .search-bar img {
-  height: 100%;
+  align-self: center;
+  height: 90%;
   opacity: 45%;
   margin-right: 5px;
 }
 nav .search-bar p {
   font-family: Segoe UI Regular;
   color: rgba(0, 0, 0, 0.45);
-  font-size: 16px;
+  font-size: 1rem;
 }
 nav .links {
   width: 38%;
@@ -132,7 +133,7 @@ footer {
   position: absolute;
   height: 5.75em;
   background-color: #587C83;
-  min-width: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -262,12 +263,12 @@ footer .links a {
   background-image: url(../assets/firestarter.jpg);
 }
 
-@media screen and (max-width: 772px) {
+@media screen and (max-width: 768px) {
   .home-content {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 390px) {
   .book-info {
     height: 450px !important;
     width: 70% !important;
