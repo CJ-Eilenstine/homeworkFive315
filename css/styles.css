@@ -822,6 +822,35 @@ footer .social img {
   font-size: 14px;
 }
 
+@media screen and (max-width: 772px) {
+  .bookclub-content {
+    height: 1200px !important;
+    align-items: flex-start !important;
+  }
+  .bookclub-content .image-left {
+    width: 200px !important;
+    height: 300px !important;
+  }
+  .bookclub-content .text-right {
+    margin-left: 15px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .bookclub-content {
+    height: 1200px !important;
+    align-items: flex-start !important;
+  }
+  .bookclub-content .image-left {
+    width: 100px !important;
+    height: 150px !important;
+  }
+  .bookclub-content .text-right {
+    margin-left: 15px;
+  }
+  .bookclub-content .text-right p {
+    font-size: 10px;
+  }
+}
 .e-read-wrapper {
   width: 80%;
   margin: 0 auto;
@@ -969,6 +998,7 @@ footer .social img {
   width: 35%;
   min-height: 100px;
   margin: 0 auto;
+  margin-top: 20px;
 }
 .form-wrapper .login {
   width: 100%;
