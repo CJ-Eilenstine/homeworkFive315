@@ -6,6 +6,7 @@ nav {
     justify-content: space-between;
     padding: 30px 1.7%;
     max-width: 100%;
+    margin: 0 auto;
 
     .logo {
         width: 15%;
@@ -31,6 +32,7 @@ nav {
         align-self: flex-end;
         display: flex;
         align-items: flex-start;
+        padding: 1px;
 
         img {
             align-self: center;
@@ -52,11 +54,11 @@ nav {
         align-self: flex-end;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
 
         img {
-            height: 150%;
-            margin-left: -5%;
+            height: 2em;
+            // margin-left: -20px;
         }
 
         a {

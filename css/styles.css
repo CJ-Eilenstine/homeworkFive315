@@ -30,12 +30,12 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 772px) {
   html {
     font-size: 11px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 395px) {
   html {
     font-size: 6px;
   }
@@ -48,6 +48,7 @@ nav {
   justify-content: space-between;
   padding: 30px 1.7%;
   max-width: 100%;
+  margin: 0 auto;
 }
 nav .logo {
   width: 15%;
@@ -70,6 +71,7 @@ nav .search-bar {
   align-self: flex-end;
   display: flex;
   align-items: flex-start;
+  padding: 1px;
 }
 nav .search-bar img {
   align-self: center;
@@ -88,11 +90,10 @@ nav .links {
   align-self: flex-end;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 nav .links img {
-  height: 150%;
-  margin-left: -5%;
+  height: 2em;
 }
 nav .links a {
   color: #000;
@@ -156,14 +157,14 @@ footer .copyright span {
   font-size: 1rem;
   font-family: Segoe UI Regular;
 }
-footer .links {
+footer .links-foot {
   margin-left: 0.625em;
   min-width: 8em;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-footer .links a {
+footer .links-foot a {
   color: #FFFFFF;
   font-size: 1rem;
   font-family: Segoe UI Regular;
@@ -264,12 +265,12 @@ footer .links a {
   background-image: url(../assets/firestarter.jpg);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 772px) {
   .home-content {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 395px) {
   .book-info {
     height: 450px !important;
     width: 70% !important;
