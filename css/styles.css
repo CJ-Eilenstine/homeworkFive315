@@ -588,6 +588,58 @@ footer .links a {
   background-image: url(../assets/ereading-blog.jpg);
 }
 
+@media screen and (max-width: 772px) {
+  .blog-content .left-content-spaced {
+    width: 70%;
+  }
+  .blog-content .left-content-spaced .book {
+    height: 50%;
+    width: 40%;
+  }
+  .blog-content .right-content-shrinked {
+    align-items: flex-start;
+  }
+  .blog-content .left-content {
+    width: 50%;
+  }
+  .blog-content .right-content {
+    width: 50%;
+    align-items: flex-start;
+  }
+  .blog-content .right-content .text-content h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .blog-content {
+    height: 200px !important;
+  }
+  .blog-content .right-content-shrinked .text-content h1 {
+    font-size: 10px;
+  }
+  .blog-content .right-content-shrinked .text-content p {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
+  .blog-content .right-content-shrinked .text-content .cart {
+    margin-top: 5px;
+    height: 30px;
+    width: 100px;
+  }
+  .right-content .text-content h1 {
+    font-size: 10px !important;
+  }
+  .right-content .text-content p {
+    font-size: 8px !important;
+    margin-bottom: 5px !important;
+  }
+  .right-content .text-content .cart {
+    margin-top: 15px !important;
+    height: 30px !important;
+    width: 100px !important;
+  }
+}
 .february-wrapper {
   width: 80%;
   margin: 0 auto;

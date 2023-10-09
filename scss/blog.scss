@@ -131,3 +131,68 @@
   background-image: url(../assets/ereading-blog.jpg);
 }
 
+@media screen and (max-width: 772px){
+  .blog-content{
+    .left-content-spaced{
+      width: 70%;
+      .book{
+        height: 50%;
+        width: 40%;
+      }
+    }
+    .right-content-shrinked{
+      align-items: flex-start;
+    }
+    .left-content{
+      width: 50%;
+    }
+    .right-content{
+      width: 50%;
+      align-items: flex-start;
+      .text-content{
+        h1{
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 395px){
+  .blog-content{
+    height: 200px !important;
+   .right-content-shrinked{
+    .text-content{
+      h1{
+        font-size: 10px;
+      }
+      p{
+        font-size: 8px;
+        margin-bottom: 5px;
+      }
+      .cart{
+        margin-top: 5px;
+        height: 30px;
+        width: 100px;
+      }
+    }
+   }
+  }
+  .right-content{
+    .text-content{
+      h1{
+        font-size: 10px !important;
+      }
+      p{
+        font-size: 8px !important;
+        margin-bottom: 5px !important;
+      }
+      .cart{
+        margin-top: 15px !important;
+        height: 30px !important;
+        width: 100px !important;
+      }
+    }
+  }
+}
