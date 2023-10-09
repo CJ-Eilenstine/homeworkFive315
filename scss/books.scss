@@ -23,7 +23,6 @@
       .book-image{
         height: 100%;
         width: 190px;
-        background-color: purple;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -100,4 +99,41 @@
 
 .space{
   background-image: url(../assets/fun\ facts\ about\ space.jpg);
+}
+
+@media screen and (max-width: 772px){
+  .info-wrapper{
+    flex-direction: column;
+    margin-bottom: 50px !important;
+    .book-wrapper{
+      margin: 0 auto;
+      margin-bottom: 50px;
+      .cart{
+        height: 30px !important;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 395px){
+  .book-group{
+   width: 80% !important;
+   margin-bottom: 20px !important;
+   .info-wrapper{
+    justify-content: space-between !important;
+    .book-image{
+      width: 100px !important;
+      height: 140px !important;
+    }
+    .book-info-wrapper{
+      width: 200px !important;
+  
+      p{
+        margin-bottom: 10px;
+      }
+    }
+   } 
+ 
+  }
 }

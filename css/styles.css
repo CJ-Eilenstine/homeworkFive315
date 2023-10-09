@@ -353,7 +353,6 @@ footer .links a {
 .book-group .info-wrapper .book-wrapper .book-image {
   height: 100%;
   width: 190px;
-  background-color: purple;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -426,6 +425,38 @@ footer .links a {
   background-image: url(../assets/fun\ facts\ about\ space.jpg);
 }
 
+@media screen and (max-width: 772px) {
+  .info-wrapper {
+    flex-direction: column;
+    margin-bottom: 50px !important;
+  }
+  .info-wrapper .book-wrapper {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .info-wrapper .book-wrapper .cart {
+    height: 30px !important;
+  }
+}
+@media screen and (max-width: 395px) {
+  .book-group {
+    width: 80% !important;
+    margin-bottom: 20px !important;
+  }
+  .book-group .info-wrapper {
+    justify-content: space-between !important;
+  }
+  .book-group .info-wrapper .book-image {
+    width: 100px !important;
+    height: 140px !important;
+  }
+  .book-group .info-wrapper .book-info-wrapper {
+    width: 200px !important;
+  }
+  .book-group .info-wrapper .book-info-wrapper p {
+    margin-bottom: 10px;
+  }
+}
 .blog-content {
   max-width: 80%;
   height: 450px;
