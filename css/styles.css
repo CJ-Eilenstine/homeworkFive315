@@ -248,6 +248,7 @@ footer .links a {
   .book-info {
     height: 450px !important;
     width: 70% !important;
+    margin-bottom: 88px !important;
   }
   .book-info .book {
     max-height: 150px;
@@ -297,6 +298,33 @@ footer .links a {
   background-image: url(../assets/about-photo-two.jpg);
 }
 
+@media screen and (max-width: 772px) {
+  .about-image {
+    width: 40% !important;
+  }
+  .about-text-holder {
+    width: 55% !important;
+  }
+}
+@media screen and (max-width: 395px) {
+  .about-content-wrapper {
+    width: 90%;
+  }
+  .about-content-wrapper .about-image {
+    height: 50% !important;
+  }
+  .about-content-wrapper .about-text-holder h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .about-content-wrapper .about-text-holder h3 {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .about-content-wrapper .about-text-holder p {
+    font-size: 10px;
+  }
+}
 .book-group {
   width: 97%;
   min-height: 400px;
