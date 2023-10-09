@@ -1,0 +1,66 @@
+.form-wrapper{
+  width: 35%;
+  min-height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  .login{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    p{
+      font-family: $reg-font;
+    }
+    input, textarea{
+      font-family: $reg-font;
+      width: 70%;
+      height: 40px;
+      padding: 10px;
+      border: none;
+      border-bottom: 2px solid black;
+      margin-bottom: 50px;
+    }
+    .login{
+      height: 50px;
+      width: 150px;
+      background-color: $site-blue;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      color: $site-white;
+    }
+  }
+  .sign-up{
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    p{
+      font-family: $reg-font;
+    }
+    input, textarea{
+      font-family: $reg-font;
+      width: 70%;
+      height: 40px;
+      padding: 10px;
+      border: none;
+      border-bottom: 2px solid black;
+      margin-bottom: 50px;
+    }
+    .login{
+      height: 50px;
+      width: 150px;
+      background-color: $site-blue;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      color: $site-white;
+    }
+  }
+}

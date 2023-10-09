@@ -1,0 +1,107 @@
+nav {
+    height: $desk-height;
+    border-bottom: solid 1px $site-black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 3%;
+    max-width: 100vw;
+    margin: 0 auto;
+
+    .logo {
+        width: 15%;
+        align-self: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+
+        img {
+            height: 4.5em;
+        }
+
+        p {
+            color: $site-black;
+            font-family: $reg-font;
+        }
+    }
+
+    .search-bar {
+        width: 35%;
+        background-color: $search-bar;
+        height: 2rem;
+        align-self: flex-end;
+        display: flex;
+        align-items: flex-start;
+        padding: 1px;
+
+        img {
+            align-self: center;
+            height: 90%;
+            opacity: 45%;
+            margin-right: 5px;
+        }
+
+        p {
+            font-family: $reg-font;
+            color: rgba($color: #000000, $alpha: .45);
+            font-size: 1rem;
+        }
+    }
+
+    .links {
+        width: 40%;
+        height: 20px;
+        align-self: flex-end;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        img {
+            height: 2em;
+            // margin-left: -20px;
+        }
+
+        a {
+            color: $site-black;
+            font-size: 1rem;
+            font-family: $reg-font;
+            text-decoration: none;
+            margin-right: 4px;
+        }
+    }
+
+    .menu-toggle {
+        justify-self: end;
+        margin-right: 25px;
+        display: none;
+
+        .bar {
+            width: 60px;
+            height: 5px;
+            background-color: $site-black;
+            display: none;
+
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .links {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: $site-white;
+        justify-content: start;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
+
+    }
+
+
+    .menu-toggle, .bar {
+        display: block;
+        cursor: pointer;
+    }
+}

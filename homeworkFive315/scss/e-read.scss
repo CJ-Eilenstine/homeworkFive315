@@ -1,0 +1,84 @@
+.e-read-wrapper{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 140px;
+  .e-read-hero{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/ereading-blog.jpg);
+    .e-read-opacity{
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(88, 124, 131, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .e-read-hero-text{
+        text-align: center;
+        font-family: $bold-font;
+        color: $site-white;
+      }
+    }
+  }
+  .e-read-content{
+    height: 650px;
+    width: 100%;
+    margin-top: 105px;
+    margin-bottom: 260px;
+    display: flex;
+    justify-content: space-between;
+    .e-read-image-left{
+      width: 40%;
+      height: 60%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(../assets/eread-hero.jpg);
+    }
+    .text-right{
+      width: 55%;
+      height: 100%;
+      font-family: $reg-font;
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 772px){
+  .e-read-content{
+    height: 1200px !important;
+    align-items: flex-start !important;
+    .e-read-image-left{
+      width: 200px !important;
+      height: 300px !important;
+    }
+    .text-right{
+      margin-left: 15px;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 395px){
+  .e-read-content{
+    height: 1200px !important;
+    align-items: flex-start !important;
+    .e-read-image-left{
+      width: 100px !important;
+      height: 150px !important;
+    }
+    .text-right{
+      margin-left: 15px;
+      p{
+        font-size: 10px;
+      }
+    }
+  }
+  
+}
+
