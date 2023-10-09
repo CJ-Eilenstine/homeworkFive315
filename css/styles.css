@@ -813,11 +813,68 @@ footer .links a {
 }
 
 .item-container {
-  width: 100px;
-  height: 203px;
-  border-radius: 1px solid black;
+  width: 100%;
+  height: 500px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-container .cart-container {
+  width: 70%;
+  height: 70%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.item-container .cart-container .cart-image {
+  height: 100%;
+  width: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: yellow;
+}
+.item-container .cart-container .cart-info {
+  height: 100%;
+  min-width: 40%;
+  margin-left: 30px;
+}
+.item-container .cart-container .cart-info h4 {
+  font-family: Segoe UI Bold;
+}
+.item-container .cart-container .cart-info p {
+  font-family: Segoe UI Regular;
+  margin-bottom: 35px;
 }
 
+.mlk {
+  background-image: url(../assets/mlk-biography.jpg);
+}
+
+.misery {
+  background-image: url(../assets/misery.jpg);
+}
+
+@media screen and (max-width: 395px) {
+  .item-container {
+    height: 300px !important;
+  }
+  .item-container .cart-image {
+    height: 70% !important;
+    width: 100px !important;
+  }
+  .item-container .cart-info {
+    width: 45% !important;
+  }
+  .item-container .cart-info h4 {
+    font-size: 10px;
+  }
+  .item-container .cart-info p {
+    font-size: 10px;
+  }
+}
 .form-wrapper {
   width: 35%;
   min-height: 100px;
