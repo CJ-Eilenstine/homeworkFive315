@@ -66,4 +66,38 @@ nav {
             margin-right: 4px;
         }
     }
+
+    .menu-toggle {
+        justify-self: end;
+        margin-right: 25px;
+        display: none;
+
+        .bar {
+            width: 60px;
+            height: 5px;
+            background-color: $site-black;
+
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .links {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: $site-white;
+        justify-content: start;
+        width: 100%;
+        height: calc(100vh - 80px);
+        text-align: center;
+        overflow: hidden;
+
+    }
+
+
+    .menu-toggle, .bar {
+        display: block;
+        cursor: pointer;
+    }
 }

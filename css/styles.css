@@ -100,7 +100,34 @@ nav .links a {
   text-decoration: none;
   margin-right: 4px;
 }
+nav .menu-toggle {
+  justify-self: end;
+  margin-right: 25px;
+  display: none;
+}
+nav .menu-toggle .bar {
+  width: 60px;
+  height: 5px;
+  background-color: #000;
+}
 
+@media screen and (max-width: 768px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #FFFFFF;
+    justify-content: start;
+    width: 100%;
+    height: calc(100vh - 80px);
+    text-align: center;
+    overflow: hidden;
+  }
+  .menu-toggle, .bar {
+    display: block;
+    cursor: pointer;
+  }
+}
 footer {
   position: absolute;
   height: 5.75em;
