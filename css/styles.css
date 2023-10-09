@@ -65,7 +65,7 @@ nav .logo p {
   font-family: Segoe UI Regular;
 }
 nav .search-bar {
-  width: 30%;
+  width: 35%;
   background-color: rgba(88, 124, 131, 0.35);
   height: 2rem;
   align-self: flex-end;
@@ -85,7 +85,7 @@ nav .search-bar p {
   font-size: 1rem;
 }
 nav .links {
-  width: 30%;
+  width: 40%;
   height: 20px;
   align-self: flex-end;
   display: flex;
@@ -161,7 +161,7 @@ footer .links-foot a {
 }
 footer .social {
   height: 5.75em;
-  width: 6.25em;
+  width: 12em;
   display: flex;
   align-items: center;
   justify-content: space-between;
