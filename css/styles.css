@@ -818,4 +818,70 @@ footer .links a {
   border-radius: 1px solid black;
 }
 
+.form-wrapper {
+  width: 35%;
+  min-height: 100px;
+  margin: 0 auto;
+}
+.form-wrapper .login {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.form-wrapper .login p {
+  font-family: Segoe UI Regular;
+}
+.form-wrapper .login input, .form-wrapper .login textarea {
+  font-family: Segoe UI Regular;
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+}
+.form-wrapper .login .login {
+  height: 50px;
+  width: 150px;
+  background-color: #587C83;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #FFFFFF;
+}
+.form-wrapper .sign-up {
+  width: 100%;
+  min-height: 400px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.form-wrapper .sign-up p {
+  font-family: Segoe UI Regular;
+}
+.form-wrapper .sign-up input, .form-wrapper .sign-up textarea {
+  font-family: Segoe UI Regular;
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+}
+.form-wrapper .sign-up .login {
+  height: 50px;
+  width: 150px;
+  background-color: #587C83;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=styles.css.map */
