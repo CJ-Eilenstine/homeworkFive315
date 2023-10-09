@@ -45,19 +45,3 @@ footer {
         }
     }
 }
-
-@media screen and (max-width: 772px) {
-    footer {
-        .copyright {
-            span {
-                font-size: .6875rem;
-            }
-        }
-
-        .links {
-            a {
-                font-size: .6875rem;
-            }
-        }
-    }
-}

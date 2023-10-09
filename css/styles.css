@@ -30,8 +30,8 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
 }
 
-@media screen and (max-width: 772px) {
-  ::root {
+@media screen and (max-width: 800px) {
+  html {
     font-size: 11px;
   }
 }
@@ -138,14 +138,6 @@ footer .links a {
   margin-right: 1em;
 }
 
-@media screen and (max-width: 772px) {
-  footer .copyright span {
-    font-size: 0.6875rem;
-  }
-  footer .links a {
-    font-size: 0.6875rem;
-  }
-}
 .hero {
   height: 300px;
   width: 80%;
