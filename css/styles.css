@@ -299,16 +299,21 @@ footer .links a {
 }
 
 @media screen and (max-width: 772px) {
-  .about-image {
+  .about-content-wrapper {
+    margin-bottom: 100px;
+    height: 500px;
+  }
+  .about-content-wrapper .about-image {
     width: 40% !important;
   }
-  .about-text-holder {
+  .about-content-wrapper .about-text-holder {
     width: 55% !important;
   }
 }
 @media screen and (max-width: 395px) {
   .about-content-wrapper {
     width: 90%;
+    height: 400px;
   }
   .about-content-wrapper .about-image {
     height: 50% !important;
