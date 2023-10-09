@@ -110,6 +110,7 @@ nav .menu-toggle .bar {
   width: 60px;
   height: 5px;
   background-color: #000;
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -120,7 +121,7 @@ nav .menu-toggle .bar {
     background-color: #FFFFFF;
     justify-content: start;
     width: 100%;
-    height: calc(100vh - 80px);
+    height: 100%;
     text-align: center;
     overflow: hidden;
   }
