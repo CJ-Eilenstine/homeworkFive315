@@ -62,3 +62,34 @@
 .davis{
   background-image: url(../assets/finding\ me.jpg);
 }
+
+@media screen and (max-width: 772px){
+  .february-content-wrapper{
+    height: 500px !important;
+    align-items: flex-start !important;
+    .book-left{
+      width: 150px !important;
+      height: 200px !important;
+    }
+    .text-right{
+      margin-left: 15px;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 395px){
+  .february-content-wrapper{
+  height: 800px !important;
+  align-items: flex-start !important;
+    .book-left{
+      height: 100px !important;
+    }
+    .text-right{
+    
+      p{
+        font-size: 6px;
+      }
+    }
+  }
+}

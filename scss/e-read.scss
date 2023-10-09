@@ -48,3 +48,37 @@
     }
   }
 }
+
+@media screen and (max-width: 772px){
+  .e-read-content{
+    height: 1200px !important;
+    align-items: flex-start !important;
+    .e-read-image-left{
+      width: 200px !important;
+      height: 300px !important;
+    }
+    .text-right{
+      margin-left: 15px;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 395px){
+  .e-read-content{
+    height: 1200px !important;
+    align-items: flex-start !important;
+    .e-read-image-left{
+      width: 100px !important;
+      height: 150px !important;
+    }
+    .text-right{
+      margin-left: 15px;
+      p{
+        font-size: 10px;
+      }
+    }
+  }
+  
+}
+
