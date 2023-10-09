@@ -192,7 +192,7 @@ footer .links a {
 }
 .home-content .book-info {
   height: 750px;
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,7 +203,7 @@ footer .links a {
 }
 .home-content .book-info .book {
   height: 500px;
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -242,6 +242,16 @@ footer .links a {
 @media screen and (max-width: 772px) {
   .home-content {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 395px) {
+  .book-info {
+    height: 450px !important;
+    width: 70% !important;
+  }
+  .book-info .book {
+    max-height: 150px;
+    max-width: 90px;
   }
 }
 .about-content-wrapper {
@@ -684,6 +694,12 @@ footer .links a {
   height: 100%;
   font-family: Segoe UI Regular;
   font-size: 14px;
+}
+
+.item-container {
+  width: 100px;
+  height: 203px;
+  border-radius: 1px solid black;
 }
 
 /*# sourceMappingURL=styles.css.map */

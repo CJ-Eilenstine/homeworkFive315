@@ -45,7 +45,7 @@
 
   .book-info{
     height: 750px;
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +56,7 @@
 
     .book{
       height: 500px;
-      width: 85%;
+      width: 100%;
       margin: 0 auto;
       background-position: center;
       background-repeat: no-repeat;
@@ -103,4 +103,16 @@
   .home-content {
     flex-direction: column;
   }
+}
+
+@media screen and (max-width: 395px){
+  .book-info{
+    height: 450px !important;
+    width: 70% !important;
+    .book {
+      max-height: 150px;
+      max-width: 90px;
+    }
+  }
+ 
 }
